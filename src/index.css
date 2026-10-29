@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background-main: #080B12;
+  --background-secondary: #0E1320;
+  --background-card: #121827;
+  --text-primary: #F4F7FB;
+  --text-secondary: #A2AEC0;
+  --accent-cyan: #5EE7F5;
+  --accent-violet: #9B8CFF;
+  --border: #1E293B;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background-main);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
